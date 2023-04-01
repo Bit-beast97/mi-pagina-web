@@ -1,0 +1,223 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 50px;
+  background-color: #f9f9f9;
+  
+}
+
+.logo img {
+  height: 80px;
+}
+
+.usuario a {
+  color: #333;
+  margin: 0 20px;
+}
+
+.busqueda input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 200px;
+}
+
+.busqueda button[type="submit"] {
+  padding: 10px;
+  background-color: #333;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: #555;
+}
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+.slider {
+  /* Aquí irían los estilos del slider */
+}
+.imagendelcontrato { width: 1200px;
+   position:center;
+  left: 0 ;
+}
+
+.descripcion {
+  margin-bottom: 50px;
+}
+
+.descripcion h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.descripcion p {
+  font-size: 18px;
+  
+}
+
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 30px 50px;
+  background-color: #f9f9f9;
+}
+
+.mapa-sitio h3,
+.enlaces h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.mapa-sitio li,
+.enlaces li {
+  margin-bottom: 10px;
+}
+
+.mapa-sitio li a,
+.enlaces li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.mapa-sitio li a:hover,
+.enlaces li a:hover {
+  color: #555;
+}
+
+.derechos p {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}     
+.logo img {
+  width: 300px; /* Cambia el valor a lo que necesites */
+  height: auto; /* Esto hará que la altura se ajuste automáticamente */
+}
+.caracteristicas {
+  margin-bottom: 50px;
+}
+
+.caracteristicas h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.caracteristicas p {
+  font-size: 16px; 
+}
+.compra {
+  background-color: #FFF;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.compra form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.compra input[type="text"],
+.compra input[type="number"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #F5F5F5;
+}
+
+.compra button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #FFF;
+  background-color: #0077FF;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.compra button:hover {
+  background-color: #0055CC;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+
+.solicitud-api, .resultado-api {
+  margin: 20px;
+}
+
+.solicitud-api input[type="text"], .solicitud-api button, .api-key-input input[type="text"], .api-key-input button {
+  margin: 10px;
+  font-size: 18px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.solicitud-api input[type="text"] {
+  width: 60%;
+}
+
+.solicitud-api button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.resultado-api h2 {
+  margin-top: 0;
+}
+
+.resultado-api p {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
